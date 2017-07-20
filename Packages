@@ -1,5 +1,5 @@
 Package: io.github.worksbybbs.test.thetwelve
-Version: 1.1
+Version: 1.0.1
 Section: Themes (LockGlyph)
 Maintainer: b1gbangseungri <bbscydia@gmail.com>
 Architecture: iphoneos-arm
@@ -10,5 +10,5 @@ Author: b1gbangseungri
 Depiction: https://worksbybbs.github.io/depictions/TheTwelveLockGlyphPack.html
 homepage: https://worksbybbs.github.io/depictions/TheTwelveLockGlyphPack.html
 Filename: /debs/TheTwelveTest.deb
-Size: 230676
-MD5sum: 38985842a3d7a4eb58d24d01a088ec24
+Size: 230678
+MD5sum: 19507cfdae46b097739a364d873063c0
