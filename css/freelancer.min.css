@@ -194,6 +194,7 @@ header .intro-text .skills {
 @media (min-width: 320px) {
     .navbar-custom .navbar-brand {
         margin: 5px;
+        padding: 5px;
     }
 }
 
