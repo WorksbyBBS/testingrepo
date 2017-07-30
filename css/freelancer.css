@@ -221,13 +221,15 @@ header .intro-text .skills {
 }
 
 @media (min-width: 319px) and (max-width: 764px) and (orientation:portrait){
-    .navbar-custom .navbar-brand {
+    .navbar-custom .navbar-brand, .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover {
+
         margin: 15px;
     }
 }
 
 @media (min-width: 319px) and (max-width: 764px) and (orientation:landscape){
-    .navbar-custom .navbar-brand {
+    .navbar-custom .navbar-brand, .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover {
+
         margin: 5px;
         padding: 15px;
     }
