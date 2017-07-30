@@ -190,6 +190,16 @@ header .intro-text .skills {
         transition: all .3s
     }
 
+    .navbar-custom .page-scroll{
+        max-width: 50%;
+    }
+
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+    .navbar-custom .page-scroll .navbar-brand{
+        margin-left: 15px;
+        margin-top: 5px;
+    }
 }
 
 @media (min-width: 319px) and (max-width: 764px) and (orientation:portrait){
