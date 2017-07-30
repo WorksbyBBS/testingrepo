@@ -188,7 +188,8 @@ header .intro-text .skills {
 .navbar-custom .navbar-toggle {
     color: white;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 15px;
+    margin-top:15px;
     border-color: white;
 }
 
@@ -203,7 +204,7 @@ header .intro-text .skills {
     background-color: transparent;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .navbar-custom {
         padding: 25px 0;
         -webkit-transition: padding 0.3s;
@@ -219,11 +220,18 @@ header .intro-text .skills {
 
 }
 
-@media (min-width: 320px) {
+@media (min-width: 319px) and (max-width: 1023px) and (orientation:portrait){
+    .navbar-custom .navbar-brand {
+        margin: 15px;
+    }
+}
+
+@media (min-width: 319px) and (max-width: 1023px) and (orientation:landscape){
     .navbar-custom .navbar-brand {
         margin: 5px;
-        padding: 5px;
+        padding: 15px;
     }
+
 }
 
 section {
@@ -657,4 +665,8 @@ div#maincontent {
     color: #fff;
     border-radius: 10px;
     background: #9bc4bc;
+}
+
+.img-responsive{
+    max-width: 50%;
 }
