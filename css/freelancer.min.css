@@ -192,13 +192,13 @@ header .intro-text .skills {
 
 }
 
-@media (min-width: 319px) and (max-width: 1023px) and (orientation:portrait){
+@media (min-width: 319px) and (max-width: 764px) and (orientation:portrait){
     .navbar-custom .navbar-brand {
         margin: 15px;
     }
 }
 
-@media (min-width: 319px) and (max-width: 1023px) and (orientation:landscape){
+@media (min-width: 319px) and (max-width: 764px) and (orientation:landscape){
     .navbar-custom .navbar-brand {
         margin: 5px;
         padding: 15px;
