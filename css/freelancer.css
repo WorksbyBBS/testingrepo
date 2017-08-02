@@ -683,3 +683,7 @@ div#maincontent {
 #headerImg{
     max-width: 30%;
 }
+
+.grid-item {
+    float: left;
+}

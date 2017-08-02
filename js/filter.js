@@ -1,17 +1,19 @@
 $(document).ready(function () {
-    $('.portfolio-item').not('.featured').slideUp(800);
-    $('.featured').addClass('active');
+    let $grid = $('.grid').imagesLoaded( function() {
+        // init Isotope after all images have loaded
+        $grid.isotope({
+            // options
+            itemSelector: '.grid-item',
+            stagger: 30
+        });
+        $('.portfolio-item').not('.featured').hide();
 
-    $(".filter-menu li a").click(function () {
-
-        $(".filter-menu li").removeClass('active');
-
-        var selectedFilter = $(this).data('option');
-        console.log(selectedFilter);
-
-        $('.portfolio-item').not(selectedFilter).slideUp(800);
-        $(selectedFilter).slideDown(1000);
-        $(selectedFilter).addClass("active");
-
+        $(".filter-menu li a").click(function () {
+            $(".filter-menu li").removeClass('active');
+            let filterValue = $(this).attr('data-filter');
+            $grid.isotope({ filter: filterValue });
+            $(filterValue).addClass("active")
+        });
     });
+
 });
