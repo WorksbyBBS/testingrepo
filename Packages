@@ -12,3 +12,18 @@ homepage: https://worksbybbs.github.io/testingrepo/depictions/TheTwelveLockGlyph
 Filename: /debs/TheTwelveTest.deb
 Size: 230686
 MD5sum: 52b1394c6e1b68f989d1732afd311b20
+
+Package: io.github.worksbybbs.compactionscc11
+Version: 1.0
+Section: CC Themes (iOS11)
+Maintainer: Alo <bbscydia@gmail.com>
+Architecture: iphoneos-arm
+Name: Compactions CC iOS 11
+Description: Compactions Icons for the CC
+Sponsor: WorksbyBBS.github.io <https://WorksbyBBS.github.io>
+Author: Alo
+Depiction: https://worksbybbs.github.io/depictions/CompactionsCC11.html
+homepage: https://worksbybbs.github.io/depictions/CompactionsCC11.html
+Filename: /debs/CompactionsCC11.deb
+Size: 69948
+MD5sum: 06c3e2fd64875ecf6d3911d53470027d
