@@ -2,17 +2,17 @@ Package: io.github.worksbybbs.test.compactionscc11
 Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: b1gbangseungri <bbscydia@gmail.com>
-Filename: ./debs/CompactionsCC11.deb
-Size: 70212
-MD5sum: f32fe6aab90c954ea58435000529c60b
-SHA1: 1d4e30a94599a49b5cebf848f239d5e5144f4fe5
-SHA256: 6e3a0f5a0eba58d4793c53d270125b901e2d73689c44bd80b9bc80e935fe009b
+Filename: ./debs/CompactionsCC.deb
+Size: 70072
+MD5sum: 58b63e82fe21ed9a26120d6b8195b3fa
+SHA1: 6fc61da092be9e7b26e608bb4b75fdf3601af951
+SHA256: de6c042edcce053a20304098424a8dec11bf0e4deacef9f600429a9b16d90c45
 Section: CC Themes (iOS 11 and 12)
-Homepage: https://worksbybbs.github.io/depictions/CompactionsCC11.html
 Description: Compactions Icons for the CC
 Author: b1gbangseungri
 Depiction: https://worksbybbs.github.io/depictions/CompactionsCC11.html
 Name: Compactions CC
+Sileodepiction: https://worksbybbs.github.io/testingrepo/sildeodepictions/CompactionsCC.json
 
 Package: io.github.worksbybbs.test.thetwelve
 Version: 1.0.2
