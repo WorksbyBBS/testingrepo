@@ -1,14 +1,32 @@
+Package: io.github.worksbybbs.test.compactionscc11
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: b1gbangseungri <bbscydia@gmail.com>
+Filename: ./debs/CompactionsCC11.deb
+Size: 70212
+MD5sum: f32fe6aab90c954ea58435000529c60b
+SHA1: 1d4e30a94599a49b5cebf848f239d5e5144f4fe5
+SHA256: 6e3a0f5a0eba58d4793c53d270125b901e2d73689c44bd80b9bc80e935fe009b
+Section: CC Themes (iOS 11 and 12)
+Homepage: https://worksbybbs.github.io/depictions/CompactionsCC11.html
+Description: Compactions Icons for the CC
+Author: b1gbangseungri
+Depiction: https://worksbybbs.github.io/depictions/CompactionsCC11.html
+Name: Compactions CC
+
 Package: io.github.worksbybbs.test.thetwelve
 Version: 1.0.2
-Section: Themes (LockGlyph)
-Maintainer: b1gbangseungri <bbscydia@gmail.com>
 Architecture: iphoneos-arm
-Name: The Twelve LockGlyph Pack
-Description: The Twelve LockGlyph Pack
-Sponsor: WorksbyBBS.github.io <https://WorksbyBBS.github.io>
-Author: b1gbangseungri
-Depiction: https://worksbybbs.github.io/testingrepo/depictions/TheTwelveLockGlyphPack.html
-homepage: https://worksbybbs.github.io/testingrepo/depictions/TheTwelveLockGlyphPack.html
-Filename: /debs/TheTwelveTest.deb
+Maintainer: b1gbangseungri <bbscydia@gmail.com>
+Filename: ./debs/TheTwelveTest.deb
 Size: 230686
 MD5sum: 52b1394c6e1b68f989d1732afd311b20
+SHA1: fe4371e6a94f116db83cd1d08dc32d11931f0498
+SHA256: 8e4cba0f049446a60c1142c9ed8867aaebecd72b2bb025bd9e1a05ae2ed6ae48
+Section: Themes (LockGlyph)
+Homepage: https://worksbybbs.github.io/depictions/TheTwelveLockGlyphPack.html
+Description: The Twelve LockGlyph Pack
+Author: b1gbangseungri
+Depiction: https://worksbybbs.github.io/depictions/TheTwelveLockGlyphPack.html
+Name: The Twelve LockGlyph Pack
+
