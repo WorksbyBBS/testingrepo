@@ -220,12 +220,11 @@
                 </div>
                 <form name="sentMessage" id="contactForm" novalidate action="https://formspree.io/bbscydia@gmail.com"
                       method="POST">
-                <div class="contact-error"></div>
                 <div class="row mt-4 mr-5 ml-5">
                     <div class="col-md-6">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label form-input is-upgraded"
                              data-upgraded=",MaterialTextfield">
-                            <input class="mdl-textfield__input" type="text" placeholder="Your Name" id="name" name="name" required>
+                            <input class="mdl-textfield__input" type="text" placeholder="Your Name" id="name" name="name" required data-validation-required-message="Please enter your name.">
 
                         </div>
                     </div>
@@ -233,14 +232,14 @@
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label form-input is-upgraded"
                              data-upgraded=",MaterialTextfield">
                             <input class="mdl-textfield__input" type="text" placeholder="Your Email Address" id="email"
-                                   name="_replyto" required>
+                                   name="_replyto" required data-validation-required-message="Please enter your email address.">
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label form-input is-upgraded"
                              data-upgraded=",MaterialTextfield">
                             <textarea class="mdl-textfield__input" rows="3" placeholder="Your Message" id="message" name="message"
-                                      required></textarea>
+                                      required data-validation-required-message="Please enter a message."></textarea>
                         </div>
                     </div>
                 </div>
