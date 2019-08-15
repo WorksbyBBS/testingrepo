@@ -11810,3 +11810,8 @@ body {
     padding: 20px 0; }
     .footer-block:nth-child(2) {
       padding: 20px 0; } }
+
+.carousel-control-next-dark,
+.carousel-control-prev-dark {
+  filter: invert(100%);
+}

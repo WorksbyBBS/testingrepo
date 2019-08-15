@@ -28,7 +28,6 @@
     <script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
     <!-- Custom Main Stylesheet CSS -->
     <link rel="stylesheet" href="./dist/css/style-lightgreen.css">
-
 </head>
 <body>
 
@@ -40,7 +39,7 @@
                 <div class="tbl-row">
                     <!-- Start Header Logo Section -->
                     <div class="tbl-cell hdr-logo">
-                        <a href="index.html"><img src="./CydiaIcon.png" alt=""></a>
+                        <a href="index.html"><img src="./WebsiteLogo.png" alt=""></a>
                     </div><!-- End Header Logo Section -->
                     <div class="tbl-cell hdr-menu scroll-nav">
                         <!-- Start Menu Section -->
@@ -118,8 +117,8 @@
                 <button class="portfolio-filter active" data-filter="all">Featured</button>
                 <button class="portfolio-filter" data-filter="cc-themes">CC Themes</button>
                 <button class="portfolio-filter" data-filter="music-controls">MC Themes</button>
+                <button class="portfolio-filter" data-filter="ui">UI Themes</button>
                 <button class="portfolio-filter" data-filter="lockglyph">LockGlyph</button>
-                <button class="portfolio-filter" data-filter="keypad">Keypad</button>
             </div>
             <div class="portfolio-wrapper">
                 <ul class="row">
@@ -154,6 +153,58 @@
                             </div>
                         </a>
                     </li>
+                    <li class="col-sm-6 col-lg-3 portfolio-img filter all cc-themes">
+                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                            <img src="img/portfolio/LinealCC.png" alt="">
+                            <div class="gallery-layer">
+                                <div class="gallery-layer-dark">
+                                    <p><i class="fa fa-search-plus"></i></p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="row">
+                    <li class="col-sm-6 col-lg-3 portfolio-img filter all ui">
+                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                            <img src="assets/images/FlatUI.png" alt="">
+                            <div class="gallery-layer">
+                                <div class="gallery-layer-dark">
+                                    <p><i class="fa fa-search-plus"></i></p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-sm-6 col-lg-3 portfolio-img filter all ui">
+                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                            <img src="assets/images/LinealUIPoster.png" alt="">
+                            <div class="gallery-layer">
+                                <div class="gallery-layer-dark">
+                                    <p><i class="fa fa-search-plus"></i></p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-sm-6 col-lg-3 portfolio-img filter all ui">
+                        <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                            <img src="img/portfolio/LinealMC.png" alt="">
+                            <div class="gallery-layer">
+                                <div class="gallery-layer-dark">
+                                    <p><i class="fa fa-search-plus"></i></p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-sm-6 col-lg-3 portfolio-img filter all ui">
+                        <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                            <img src="assets/images/FlatMusicControls.png" alt="">
+                            <div class="gallery-layer">
+                                <div class="gallery-layer-dark">
+                                    <p><i class="fa fa-search-plus"></i></p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <!--</div>-->
@@ -161,7 +212,55 @@
         </div>
     </div>
     <!--End Portfolio-->
+
+    <!--Start Contact Me-->
+    <div class="light-background">
+        <div class="layer-tablet">
+            <div class="layer-wrapper">
+                <div class="layer-ttl"><h4>Don't Hesitate. <span class="text-primary">Reach Out </span> to Me</h4></div>
+                <div class="layer-sub-ttl">I always respond to emails
+                </div>
+                <form name="sentMessage" id="contactForm" novalidate action="https://formspree.io/bbscydia@gmail.com"
+                      method="POST">
+                <div class="contact-error"></div>
+                <div class="row mt-4 mr-5 ml-5">
+                    <div class="col-md-6">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label form-input is-upgraded"
+                             data-upgraded=",MaterialTextfield">
+                            <input class="mdl-textfield__input" type="text" placeholder="Your Name" id="name" name="name" required>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label form-input is-upgraded"
+                             data-upgraded=",MaterialTextfield">
+                            <input class="mdl-textfield__input" type="text" placeholder="Your Email Address" id="email"
+                                   name="_replyto" required>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label form-input is-upgraded"
+                             data-upgraded=",MaterialTextfield">
+                            <textarea class="mdl-textfield__input" rows="3" placeholder="Your Message" id="message" name="message"
+                                      required></textarea>
+                        </div>
+                    </div>
+                </div>
+                    <div class="row mt-4 mr-5 ml-5">
+                        <div class="col-12 text-center">
+                            <button class="mdl-button mdl-js-button  btn btn-success btn-pill btn-gradient contact-submit"
+                                    data-upgraded=",MaterialButton,MaterialRipple">Submit<span
+                                    class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--End Contact Me-->
+
     <!-- Start Copyright Section -->
+    <footer>
     <div id="copyright">
         <div class="layer-stretch">
             <div class="paragraph-small paragraph-white text-center">2019 © Alo ALL RIGHTS RESERVED.</div>
@@ -369,7 +468,7 @@
                             <div id="compactionsCarousel" class="carousel slide" data-ride="carousel">
                                 <!-- Indicators -->
                                 <ul class="carousel-indicators">
-                                    <li data-target="#constellationsCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#compactionsCarousel" data-slide-to="0" class="active"></li>
                                 </ul>
 
                                 <!-- Wrapper for slides -->
@@ -382,17 +481,17 @@
                                 </div>
 
                                 <!-- Left and right controls -->
-                                <a class="carousel-control-prev" href="#constellationsCarousel" data-slide="prev">
+                                <a class="carousel-control-prev" href="#compactionsCarousel" data-slide="prev">
                                     <span class="carousel-control-prev-icon"></span>
                                 </a>
-                                <a class="carousel-control-next" href="#constellationsCarousel" data-slide="next">
+                                <a class="carousel-control-next" href="#compactionsCarousel" data-slide="next">
                                     <span class="carousel-control-next-icon"></span>
                                 </a>
 
                             </div>
 
                             <br>
-                            <p>This includes 84 icons.</p>
+                            <p>A minimal CC theme</p>
                             <p>Tested this on my iPhone X on iOS 11.3.1, and XS on 12.1.1</p>
                             <p>The wifi and bluetooth icons are themed using BetterCCIconsPro</p>
 
@@ -403,7 +502,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <h4><span class="font-weight-bold">Version on Repository: </span><span
-                                            class="text-success">1.0.1</span></h4>
+                                            class="text-success">1.1</span></h4>
 
                                 </div>
                             </div>
@@ -411,6 +510,448 @@
                             <div class="row text-center">
                                 <div class="col-sm-12">
                                     <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://worksbybbs.github.io/&package=io.github.worksbybbs.compactionscc11"
+                                       class="btn btn-success">View Package in Cydia/Sileo</a>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- LinealCC CC Portfolio Modal-->
+    <div class=" modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Lineal CC Theme</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12" id="linealCCProject">
+
+                            <div id="linealCCCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ul class="carousel-indicators">
+                                    <li data-target="#linealCCCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#linealCCCarousel" data-slide-to="1"></li>
+                                    <li data-target="#linealCCCarousel" data-slide-to="2"></li>
+                                    <li data-target="#linealCCCarousel" data-slide-to="3"></li>
+                                </ul>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/portfolio/LinealCC.png" class="img-fluid img-centered"
+                                             alt="LinealCC First Image">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="img/portfolio/LinealCC1.png" class="img-fluid img-centered"
+                                             alt="LinealCC Second Image">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="img/portfolio/LinealCC2.png" class="img-fluid img-centered"
+                                             alt="LinealCC Second Image">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="img/portfolio/LinealCC3.png" class="img-fluid img-centered"
+                                             alt="LinealCC Second Image">
+                                    </div>
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev" href="#linealCCCarousel" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#linealCCCarousel" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </a>
+
+                            </div>
+
+                            <br>
+                            <p>A fresh and modern CC theme</p>
+                            <p>Tested this on my iPhone X on iOS 11.3.1, and XS on 12.1.1</p>
+                            <p>The wifi and bluetooth icons are themed using BetterCCIconsPro</p>
+
+                            <div class="row text-center">
+                                <div class="col-md-6">
+                                    <h4><span class="font-weight-bold">Works With: </span><span class="text-success">iThemer, Anemone 2</span>
+                                    </h4>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4><span class="font-weight-bold">Version on Repository: </span><span
+                                            class="text-success">1.1.1</span></h4>
+
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row text-center">
+                                <div class="col-sm-12">
+                                    <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://worksbybbs.github.io/&package=io.github.worksbybbs.linealcc"
+                                       class="btn btn-success">View Package in Cydia/Sileo</a>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Flat UI Portfolio Modal-->
+    <div class=" modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Flat UI Theme</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12" id="flatUIProject">
+
+                            <div id="flatUICarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ul class="carousel-indicators">
+                                    <li data-target="#flatUICarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#flatUICarousel" data-slide-to="1"></li>
+                                    <li data-target="#flatUICarousel" data-slide-to="2"></li>
+                                    <li data-target="#flatUICarousel" data-slide-to="3"></li>
+                                    <li data-target="#flatUICarousel" data-slide-to="4"></li>
+                                </ul>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/portfolio/FlatUI-1.png" class="img-fluid img-centered"
+                                             alt="flat First Image">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="img/portfolio/FlatUI-2.png" class="img-fluid img-centered"
+                                             alt="flat Second Image">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="img/portfolio/FlatUI-3.png" class="img-fluid img-centered"
+                                             alt="flat Second Image">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="img/portfolio/FlatUI-4.png" class="img-fluid img-centered"
+                                             alt="flat Second Image">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/portfolio/FlatUI-5.png" class="img-fluid img-centered"
+                                             alt="flat Second Image">
+                                    </div>
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev" href="#flatUICarousel" data-slide="prev">
+                                    <span class="carousel-control-prev-icon-dark"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#flatUICarousel" data-slide="next">
+                                    <span class="carousel-control-next-icon-dark"></span>
+                                </a>
+
+                            </div>
+
+                            <br>
+                            <p>Make your device look a little bit nicer</p>
+                            <p>A UI theme which changes the look of several apps such as Safari, App Store, Music, and
+                                Sileo. It also changes the look of share sheet icons.</p>
+                            <p>Tested this on my iPhone X on iOS 11.3.1, and XS on 12.1.1</p>
+
+
+                            <div class="row text-center">
+                                <div class="col-md-6">
+                                    <h4><span class="font-weight-bold">Works With: </span><span class="text-success">iThemer, Anemone 2</span>
+                                    </h4>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4><span class="font-weight-bold">Version on Repository: </span><span
+                                            class="text-success">1.2.4</span></h4>
+
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row text-center">
+                                <div class="col-sm-12">
+                                    <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://worksbybbs.github.io/&package=io.github.worksbybbs.flatui"
+                                       class="btn btn-success">View Package in Cydia/Sileo</a>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Lineal UI Portfolio Modal-->
+    <div class=" modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Lineal UI Theme</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12" id="linealUIProject">
+
+                            <div id="linealUICarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ul class="carousel-indicators">
+                                    <li data-target="#linealUICarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#linealUICarousel" data-slide-to="1"></li>
+                                    <li data-target="#linealUICarousel" data-slide-to="2"></li>
+                                    <li data-target="#linealUICarousel" data-slide-to="3"></li>
+                                </ul>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/portfolio/LinealUI-1.png" class="img-fluid img-centered"
+                                             alt="flat First Image">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="img/portfolio/LinealUI-2.png" class="img-fluid img-centered"
+                                             alt="flat Second Image">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="img/portfolio/LinealUI-3.png" class="img-fluid img-centered"
+                                             alt="flat Second Image">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="img/portfolio/LinealUI-4.png" class="img-fluid img-centered"
+                                             alt="flat Second Image">
+                                    </div>
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev" href="#linealUICarousel" data-slide="prev">
+                                    <span class="carousel-control-prev-icon-dark"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#linealUICarousel" data-slide="next">
+                                    <span class="carousel-control-next-icon-dark"></span>
+                                </a>
+
+                            </div>
+
+                            <br>
+                            <p>Make your device look a little bit nicer</p>
+                            <p>A UI theme which changes the look of several apps such as Safari, App Store, Music, and
+                                Sileo. It also changes the look of share sheet icons.</p>
+                            <p>Tested this on my iPhone X on iOS 11.3.1, and XS on 12.1.1</p>
+
+
+                            <div class="row text-center">
+                                <div class="col-md-6">
+                                    <h4><span class="font-weight-bold">Works With: </span><span class="text-success">iThemer, Anemone 2</span>
+                                    </h4>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4><span class="font-weight-bold">Version on Repository: </span><span
+                                            class="text-success">1.3</span></h4>
+
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row text-center">
+                                <div class="col-sm-12">
+                                    <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://worksbybbs.github.io/&package=io.github.worksbybbs.linealui"
+                                       class="btn btn-success">View Package in Cydia/Sileo</a>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Lineal MC Portfolio Modal-->
+    <div class=" modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Lineal Music Controls Theme</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12" id="linealMCProject">
+
+                            <div id="linealMCCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ul class="carousel-indicators">
+                                    <li data-target="#linealMCCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#linealMCCarousel" data-slide-to="1"></li>
+                                    <li data-target="#linealMCCarousel" data-slide-to="2"></li>
+                                </ul>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/portfolio/LinealMC-1.png" class="img-fluid img-centered"
+                                             alt="flat First Image">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="img/portfolio/LinealMC-2.png" class="img-fluid img-centered"
+                                             alt="flat Second Image">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="img/portfolio/LinealMC-3.png" class="img-fluid img-centered"
+                                             alt="flat Second Image">
+                                    </div>
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev" href="#linealMCCarousel" data-slide="prev">
+                                    <span class="carousel-control-prev-icon-dark"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#linealMCCarousel" data-slide="next">
+                                    <span class="carousel-control-next-icon-dark"></span>
+                                </a>
+
+                            </div>
+
+                            <br>
+                            <p>A Unique Music Controls Theme</p>
+                            <p>Designed to go along with Lineal UI and Lineal CC for the full experience</p>
+                            <p>Tested this on my iPhone X on iOS 11.3.1, and XS on 12.1.1</p>
+
+
+                            <div class="row text-center">
+                                <div class="col-md-6">
+                                    <h4><span class="font-weight-bold">Works With: </span><span class="text-success">iThemer, Anemone 2</span>
+                                    </h4>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4><span class="font-weight-bold">Version on Repository: </span><span
+                                            class="text-success">1.0</span></h4>
+
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row text-center">
+                                <div class="col-sm-12">
+                                    <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://worksbybbs.github.io/&package=io.github.worksbybbs.linealmusiccontrols"
+                                       class="btn btn-success">View Package in Cydia/Sileo</a>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Lineal MC Portfolio Modal-->
+    <div class=" modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Flat Music Controls Theme</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12" id="flatMCProject">
+
+                            <div id="flatMCCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ul class="carousel-indicators">
+                                    <li data-target="#flatMCCarousel" data-slide-to="0" class="active"></li>
+                                </ul>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/images/FlatMusicControls.png" class="img-fluid img-centered"
+                                             alt="flat First Image">
+                                    </div>
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev" href="#flatMCCarousel" data-slide="prev">
+                                    <span class="carousel-control-prev-icon-dark"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#flatMCCarousel" data-slide="next">
+                                    <span class="carousel-control-next-icon-dark"></span>
+                                </a>
+
+                            </div>
+
+                            <br>
+                            <p>A Simple Music Controls Theme</p>
+                            <p>Designed to go along with Flat UI for the full experience</p>
+                            <p>Tested this on my iPhone X on iOS 11.3.1, and XS on 12.1.1</p>
+
+
+                            <div class="row text-center">
+                                <div class="col-md-6">
+                                    <h4><span class="font-weight-bold">Works With: </span><span class="text-success">iThemer, Anemone 2</span>
+                                    </h4>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4><span class="font-weight-bold">Version on Repository: </span><span
+                                            class="text-success">1.0</span></h4>
+
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row text-center">
+                                <div class="col-sm-12">
+                                    <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://worksbybbs.github.io/&package=io.github.worksbybbs.flatmusiccontrols11"
                                        class="btn btn-success">View Package in Cydia/Sileo</a>
                                 </div>
                                 <br>
@@ -465,6 +1006,14 @@
 <script>
     $('.menu li a').on("click", function (e) {
         $('.mobile-menu-close').click();
+    });
+
+    $(document).bind('keyup', function (e) {
+        if (e.which == 39) {
+            $('.carousel').carousel('next');
+        } else if (e.which == 37) {
+            $('.carousel').carousel('prev');
+        }
     });
 </script>
 </body>
